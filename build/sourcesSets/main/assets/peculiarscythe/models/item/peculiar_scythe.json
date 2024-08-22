@@ -1,0 +1,6 @@
+{
+  "parent": "peculiarscythe:item/handheld_scythe",
+  "textures": {
+    "layer0": "peculiarscythe:item/peculiar_scythe"
+  }
+}

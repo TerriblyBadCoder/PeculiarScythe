@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "net/atired/peculiarscythe/mixin/ItemEntityRendererMixin": {
+      "render(Lnet/minecraft/world/entity/item/ItemEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/client/renderer/entity/ItemEntityRenderer;m_7392_(Lnet/minecraft/world/entity/item/ItemEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "net/atired/peculiarscythe/mixin/PlayerMixin": {
+      "sweepAttack": "Lnet/minecraft/world/entity/player/Player;m_36346_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/atired/peculiarscythe/mixin/ItemEntityRendererMixin": {
+        "render(Lnet/minecraft/world/entity/item/ItemEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/client/renderer/entity/ItemEntityRenderer;m_7392_(Lnet/minecraft/world/entity/item/ItemEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "net/atired/peculiarscythe/mixin/PlayerMixin": {
+        "sweepAttack": "Lnet/minecraft/world/entity/player/Player;m_36346_()V"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: peculiarscythe
+Specification-Vendor: AtiredBozo
+Specification-Version: 1
+Implementation-Title: PeculiarScythe
+Implementation-Version: 1.0.0_1.20.1
+Implementation-Vendor: AtiredBozo
+Implementation-Timestamp: 2024-08-22T20:47:53+0300
+MixinConfigs: peculiarscythe.mixins.json
+
