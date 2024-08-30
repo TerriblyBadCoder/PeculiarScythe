@@ -17,7 +17,8 @@ public class ReapingEnchantment extends Enchantment {
     @Override
     public void doPostAttack(LivingEntity p_44686_, Entity p_44687_, int p_44688_) {
         super.doPostAttack(p_44686_, p_44687_, p_44688_);
-        Vec3 movement = p_44686_.position().subtract(p_44687_.position()).normalize().scale(0.6*p_44688_);
+        Vec3 movement = p_44686_.position().subtract(p_44687_.position()).normalize().multiply(0.8*p_44688_,0.6*p_44688_,0.8*p_44688_);
+        p_44686_.invulnerableTime+=12;
         p_44687_.addDeltaMovement(movement);
     }
     public int getMinCost(int pEnchantmentLevel) {

@@ -1,13 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.atired.peculiarscythe.mixin",
+  "package": "net.atired.peculiarscythe.effects.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "peculiarscythe.refmap.json",
   "mixins": [
     "PlayerMixin"
   ],
   "client": [
+    "BeaconRendererMixin",
     "ItemEntityRendererMixin"
   ],
   "injectors": {

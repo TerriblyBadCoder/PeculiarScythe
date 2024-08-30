@@ -1,6 +1,7 @@
 package net.atired.peculiarscythe.items;
 
 import net.atired.peculiarscythe.PeculiarScythe;
+import net.atired.peculiarscythe.items.custom.AscendedSpadeItem;
 import net.atired.peculiarscythe.items.custom.PeculiarScytheItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,5 +14,7 @@ public class PSitemRegistry {
             ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PeculiarScythe.MODID);
     public static final RegistryObject<Item> PECULIAR_SCYTHE = ITEMS.register("peculiar_scythe",
             () -> new PeculiarScytheItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> ASCENDED_SPADE = ITEMS.register("ascended_spade",
+            () -> new AscendedSpadeItem(new Item.Properties().stacksTo(1)));
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus); }
 }

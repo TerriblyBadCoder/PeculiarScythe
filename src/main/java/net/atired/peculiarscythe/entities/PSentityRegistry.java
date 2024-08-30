@@ -1,6 +1,7 @@
 package net.atired.peculiarscythe.entities;
 
 import net.atired.peculiarscythe.PeculiarScythe;
+import net.atired.peculiarscythe.entities.custom.AuroraBorealisEntity;
 import net.atired.peculiarscythe.entities.custom.ScytheBladeEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -12,4 +13,5 @@ public class PSentityRegistry {
     public static final DeferredRegister<EntityType<?>> DEF_REG
             = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, PeculiarScythe.MODID);
     public static final RegistryObject<EntityType<ScytheBladeEntity>> SCYTHE_BLADE = DEF_REG.register("scytheblade", () -> (EntityType) EntityType.Builder.of(ScytheBladeEntity::new, MobCategory.MISC).sized(4.5F, 3f).noSave().build("scytheblade"));
+    public static final RegistryObject<EntityType<AuroraBorealisEntity>> RAPTURE = DEF_REG.register("rapture", () -> (EntityType) EntityType.Builder.of(AuroraBorealisEntity::new, MobCategory.MISC).sized(0.1F, 3f).noSave().build("rapture"));
 }

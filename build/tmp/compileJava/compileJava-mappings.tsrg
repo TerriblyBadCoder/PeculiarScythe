@@ -1,1 +1,1 @@
-net/atired/peculiarscythe/mixin/PlayerMixin getMainArm ()Lnet/minecraft/world/entity/HumanoidArm; m_5737_
+net/atired/peculiarscythe/effects/mixin/PlayerMixin getMainArm ()Lnet/minecraft/world/entity/HumanoidArm; m_5737_

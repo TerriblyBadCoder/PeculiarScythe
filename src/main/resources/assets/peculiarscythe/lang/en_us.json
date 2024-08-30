@@ -1,8 +1,12 @@
 {
   "item.peculiarscythe.peculiar_scythe": "Peculiar Scythe",
-
+  "item.peculiarscythe.ascended_spade": "Ascended Spade",
+  "death.attack.rapture": "%1$s has Ascended",
+  "death.attack.rapture.player": "%1$s has Ascended beyond %2$s",
   "enchantment.peculiarscythe.reaping": "Reaping",
   "enchantment.peculiarscythe.plaguing": "Infectious",
   "enchantment.peculiarscythe.spewing": "Spewing",
+  "enchantment.peculiarscythe.draining_curse": "Curse of Draining",
+  "enchantment.peculiarscythe.snowedin": "Freezeflash",
   "effect.peculiarscythe.blighted": "Blighted"
 }

@@ -1,18 +1,24 @@
 {
   "mappings": {
-    "net/atired/peculiarscythe/mixin/ItemEntityRendererMixin": {
+    "net/atired/peculiarscythe/effects/mixin/BeaconRendererMixin": {
+      "render(Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V": "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;m_6922_(Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V"
+    },
+    "net/atired/peculiarscythe/effects/mixin/ItemEntityRendererMixin": {
       "render(Lnet/minecraft/world/entity/item/ItemEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/client/renderer/entity/ItemEntityRenderer;m_7392_(Lnet/minecraft/world/entity/item/ItemEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
     },
-    "net/atired/peculiarscythe/mixin/PlayerMixin": {
+    "net/atired/peculiarscythe/effects/mixin/PlayerMixin": {
       "sweepAttack": "Lnet/minecraft/world/entity/player/Player;m_36346_()V"
     }
   },
   "data": {
     "searge": {
-      "net/atired/peculiarscythe/mixin/ItemEntityRendererMixin": {
+      "net/atired/peculiarscythe/effects/mixin/BeaconRendererMixin": {
+        "render(Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V": "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;m_6922_(Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V"
+      },
+      "net/atired/peculiarscythe/effects/mixin/ItemEntityRendererMixin": {
         "render(Lnet/minecraft/world/entity/item/ItemEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/client/renderer/entity/ItemEntityRenderer;m_7392_(Lnet/minecraft/world/entity/item/ItemEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
       },
-      "net/atired/peculiarscythe/mixin/PlayerMixin": {
+      "net/atired/peculiarscythe/effects/mixin/PlayerMixin": {
         "sweepAttack": "Lnet/minecraft/world/entity/player/Player;m_36346_()V"
       }
     }

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "peculiarscythe:item/ascended_spade"
+  },"overrides": [
+  {
+    "predicate": {
+      "aurora": 1
+    },
+    "model": "peculiarscythe:item/ascended_spade_loaded"
+  }
+  ]
+
+}

@@ -1,4 +1,4 @@
-package net.atired.peculiarscythe.mixin;
+package net.atired.peculiarscythe.effects.mixin;
 
 
 
